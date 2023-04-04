@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/cadastro-produtor.css">
+    <title>AgroHousel</title>
+</head>
+<body>
+
+    <header>
+        <a href="index.html" id="volta-pag"><img src="./img/cadastros/seta-esquerda (2).png" alt="Voltar para a página inicial"></a>
+    </header>
+
+    <main>
+    <!--formulario-->
+    <div class="container">
+        <img src="./img/cadastros/produtor.png" id="img-produtor">
+
+    <h3 id="titulo-verde">Produtor</h3>
+        <div class="row">
+            <form action="" method="post">
+                <div class="inputbox">
+                    <input type="text" maxlength="30" id="input-verde-nome" required placeholder="Nome completo">
+                    <label for="nome" id="label-verde-nome">Nome</label>
+                </div>
+                <div class="inputbox">
+                    <input type="email" maxlength="60" id="input-verde-email"  required placeholder="Email" onblur="validarEmail()" onfocus="redefinirMsg()">
+                    <label for="email" id="label-verde-email">Email</label>
+                </div>
+                <div class="inputbox">
+                    <input type="tel" maxlength="13" id="input-verde-telefone"  required placeholder="(XX)XXXXX-XXXX">
+                    <label for="tel" id="label-verde-telefone">Telefone</label>
+                </div>
+                <div class="inputbox">
+                    <label for="alimento" id="label-verde-alimento">Alimento</label>
+                        <select id="alimento" name="alimento">
+                        <option value="frutas">Frutas</option>
+                        <option value="legumes">Legumes</option>
+                        <option value="Ambos">Ambos</option>
+                        </select>
+                </div>
+                <div class="inputbox">
+                    <input type="text" maxlength="15" id="input-verde-cpf" required placeholder="XXX.XXX.XXX-XX">
+                    <label for="cpf" id="label-verde-cpf">CPF</label>
+                </div>
+                <div class="inputbox">
+                    <input type="text" maxlength="20" id="input-verde-cnpj" required placeholder="XXXX.XXX.XXX/0001-XX">
+                    <label for="cnpj" id="label-verde-cnpj">CNPJ</label>
+                </div>
+                <div class="inputbox">
+                        <label for="disponibilidade" id="label-verde-disponibilidade">Disponibilidade</label>
+                            <select id="disponibilidade" name="disponibilidade">
+                            <option value="frutas">Manhã</option>
+                            <option value="legumes">Tarde</option>
+                            <option value="Ambos">Noite</option>
+                            </select>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="inputbox">
+                        <input type="text" maxlength="9" id="input-verde-cep" required placeholder="CEP">
+                        <label for="cep" id="label-verde-cep">CEP</label>
+                    </div>
+                </div>
+            </form>
+        <button id="submit"><a href="./index.html">Cadastrar</a></button>
+    </div>
+    </main>
+
+    <footer>
+    </footer>
+
+    <!--script-->
+    
+
+</body>
+</html>

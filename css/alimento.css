@@ -1,0 +1,1651 @@
+body{
+    overflow-x: hidden;
+}
+
+#seta{
+    position: absolute;
+    left: -16.66%;
+    top: -25.26%;
+    bottom: 95.66%;
+}
+
+#logo{
+    position: absolute;
+    left: 3.79%;
+    top:15%;
+}
+
+#titulo-header{
+    position: absolute;
+    width: 292px;
+    height: 48px;
+    left: 60px;
+    top: 240px;
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 33px;
+    line-height: 48px;
+
+    color: #18456B;
+}
+
+#efeito{
+    position: absolute;
+    width: 611px;
+    height: 432px;
+    left: 0px;
+    top: 0px;
+
+    background: url(/img/pag-home/EFEITO.png);
+    border-radius: 0px 0px 1000px 0px;
+}
+
+#banner{
+    position: absolute;
+    left: -7px;
+    top: -9px;
+    width: 1348px;
+    background: url(/img/pag-home/banner\ \(2\).png);
+}
+
+#container-formulario{
+    position: absolute;
+    top:2500px;
+}
+
+#instituicao{
+    position: absolute;
+    width: 142px;
+    height: 43px;
+    left: 183px;
+    top: -80px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 43px;
+    color: #000000;
+}
+
+#instituicao-input{
+    position: absolute;
+    width: 420px;
+    height: 50px;
+    left: 133px;
+    top: -30px;
+
+    background: #FFFFFF;
+    border: 4px solid #328AEF;
+    border-radius: 15px;
+}
+
+#alimento{
+    position: absolute;
+    width: 142px;
+    height: 43px;
+    left: 700px;
+    top: -80px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 43px;
+    color: #000000;
+}
+
+#alimento-input{
+    position: absolute;
+    width: 420px;
+    height: 50px;
+    left: 667px;
+    top: -30px;
+
+    background: #FFFFFF;
+    border: 4px solid #328AEF;
+    border-radius: 15px;
+}
+
+#horario{
+    position: absolute;
+    width: 142px;
+    height: 43px;
+    left: 183px;
+    top: 50px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 43px;
+    color: #000000;
+}
+
+#horario-input{
+    position: absolute;
+    width: 420px;
+    height: 50px;
+    left: 133px;
+    top: 110px;
+
+    background: #FFFFFF;
+    border: 4px solid #328AEF;
+    border-radius: 15px;
+}
+
+#nome{
+    position: absolute;
+    width: 142px;
+    height: 43px;
+    left: 700px;
+    top: 50px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 43px;
+    color: #000000;
+}
+
+#nome-input{
+    position: absolute;
+    width: 420px;
+    height: 50px;
+    left: 667px;
+    top: 110px;
+
+    background: #FFFFFF;
+    border: 4px solid #328AEF;
+    border-radius: 15px;
+}
+
+#reservar-botao{
+    box-sizing: border-box;
+    font-family: 'Montserrat';
+    position: absolute;
+    top: 210px;
+    left: 515px;
+    width: 200px;
+    height: 50px;
+    color: #4191EC;
+    border: 3px solid #4191EC;
+    border-radius: 25px;
+    font-size: 35px;
+    font-weight: 700;
+}
+
+#reservar-botao:hover{
+    border: 3px solid #2BB2B2;
+    color: #000000;
+}
+
+#titulo{
+    position: absolute;
+    width: 241px;
+    height: 42px;
+    left: 44px;
+    top: 493px;
+    font-family: 'Montserrat';
+    font-weight: 500;
+    font-size: 33px;
+    line-height: 42px;
+    color: #18456B;
+}
+
+#subtitulo{
+    position: absolute;
+    width: 425px;
+    height: 30px;
+    left: 44px;
+    top: 535px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 23px;
+    line-height: 30px;
+    color: rgba(24, 69, 107, 0.7);
+}
+
+#titulo-regras{
+    position: absolute;
+    width: 497px;
+    height: 36px;
+    left: 40px;
+    top: 490px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 36px;
+    color: #18456B;
+}
+
+#grupo-regras{
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 613px;
+    height: 310px;
+    left: 40px;
+    top: 611px;
+
+    background: #FFFFFF;
+    border: 2px solid #2B7CD9;
+    border-radius: 10px;
+}
+
+#lista{
+    position: absolute;
+    width: 613px;
+    height: 421px;
+    left: -16px;
+    top: -11px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 21px;
+    line-height: 30px;
+
+    color: rgba(24, 69, 107, 0.8);
+}
+
+#img-regra{
+    position: absolute;
+    width: 550px;
+    height: 450px;
+    left: 725px;
+    top: 540px;
+    background: url(/img/alimentos/regra.png);
+}
+
+#container{
+    position: relative;
+    top: 540px;
+    left: 55px;
+}
+
+#frutas{
+    position: absolute;
+    width: 85px;
+    height: 43px;
+    left: 40px;
+    top: 615px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 43px;
+    display: flex;
+    align-items: center;
+    color: #064275;
+}
+
+#legumes{
+    position: absolute;
+    width: 118px;
+    height: 43px;
+    left: 660px;
+    top: 615px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 43px;
+    display: flex;
+    align-items: center;
+    color: #064275;
+}
+
+#linha1{
+    position: absolute;
+    width: 202px;
+    height: 3px;
+    left: 40px;
+    top: 680px;
+    background: rgba(50, 138, 239, 0.4);
+}
+
+#linha2{
+    position: absolute;
+    width: 202px;
+    height: 3px;
+    left: 660px;
+    top: 680px;
+    background: rgba(50, 138, 239, 0.4);
+}
+
+#dados{
+    position: relative;
+    left: 350px;
+    top: -70px;
+    background: #2B7DDA;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+    border-color: #2B7DDA;
+
+    font-family: 'Montserrat';
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 36px;
+    display: flex;
+    align-items: center;
+
+    color: #FFFFFF;
+
+    text-shadow: 0px 2px 4px rgba(0, 0, 0, 0.25);
+}
+
+#dados:hover{
+    background-color: #119696;
+    border-color: #119696;
+}
+
+#laraja{
+    position: absolute;
+    width: 84px;
+    height: 36px;
+    left: 144px;
+    top: 690px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 36px;
+    display: flex;
+    align-items: center;
+    color: #C07F0D;
+}
+
+#grupo-laranja{
+    box-sizing: border-box;
+    position: absolute;
+    width: 530px;
+    height: 156px;
+    left: 40px;
+    top: 767px;
+    background: #FFFFFF;
+    border: 2px solid rgba(253, 162, 9, 0.9);
+    border-radius: 78px 15px 15px 78px;
+}
+
+#data-laranja{
+    position: absolute;
+    width: 123px;
+    height: 36px;
+    left: 170px;
+    top: 4px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 19px;
+    line-height: 36px;
+    display: flex;
+    align-items: center;
+    color: #000000;
+
+}
+
+#local-laranja{
+    width: 59px;
+    height: 36px;
+    left: 360px;
+    top: 7px;
+    position: absolute;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20PX;
+    line-height: 36px;
+    display: flex;
+    align-items: center;
+    color: #000000;
+}
+
+#horario-laranja{
+    position: absolute;
+    width: 142px;
+    height: 36px;
+    left: 170px;
+    top: 71px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20PX;
+    line-height: 36px;
+    display: flex;
+    align-items: center;
+    color: #000000;
+}
+
+#tangerina{
+    position: absolute;
+    width: 84px;
+    height: 36px;
+    left: 144px;
+    top: 900px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 36px;
+    display: flex;
+    align-items: center;
+    color: #F56D01;
+}
+
+#grupo-tangerina{
+    box-sizing: border-box;
+    position: absolute;
+    width: 530px;
+    height: 156px;
+    left: 40px;
+    top: 980px;
+    background: rgb(255, 255, 255);
+    border: 2px solid rgb(245, 109, 1);
+    border-radius: 78px 15px 15px 78px; 
+}
+
+#data-tangerina{
+    position: absolute;
+    width: 123px;
+    height: 36px;
+    left: 170px;
+    top: 4px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 19px;
+    line-height: 36px;
+    display: flex;
+    align-items: center;
+    color: #000000;
+
+}
+
+#local-tangerina{
+    width: 59px;
+    height: 36px;
+    left: 360px;
+    top: 7px;
+    position: absolute;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20PX;
+    line-height: 36px;
+    display: flex;
+    align-items: center;
+    color: #000000;
+}
+
+#horario-tangerina{
+    position: absolute;
+    width: 142px;
+    height: 36px;
+    left: 170px;
+    top: 71px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20PX;
+    line-height: 36px;
+    display: flex;
+    align-items: center;
+    color: #000000;
+}
+
+#melao{
+    position: absolute;
+    width: 84px;
+    height: 36px;
+    left: 144px;
+    top: 1115px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 36px;
+    display: flex;
+    align-items: center;
+    color: #A68F0B;
+}
+
+#grupo-melao{
+    box-sizing: border-box;
+    position: absolute;
+    width: 530px;
+    height: 156px;
+    left: 40px;
+    top: 1192px;
+    background: rgb(255, 255, 255);
+    border: 2px solid #D6AB03;
+    border-radius: 78px 15px 15px 78px; 
+}
+
+#data-melao{
+    position: absolute;
+    width: 123px;
+    height: 36px;
+    left: 170px;
+    top: 4px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 19px;
+    line-height: 36px;
+    display: flex;
+    align-items: center;
+    color: #000000;
+
+}
+
+#local-melao{
+    width: 59px;
+    height: 36px;
+    left: 360px;
+    top: 7px;
+    position: absolute;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20PX;
+    line-height: 36px;
+    display: flex;
+    align-items: center;
+    color: #000000;
+}
+
+#horario-melao{
+    position: absolute;
+    width: 142px;
+    height: 36px;
+    left: 170px;
+    top: 71px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20PX;
+    line-height: 36px;
+    display: flex;
+    align-items: center;
+    color: #000000;
+}
+
+#morango{
+    position: absolute;
+    width: 84px;
+    height: 36px;
+    left: 144px;
+    top: 1325px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 36px;
+    display: flex;
+    align-items: center;
+    color: #841D1D;
+}
+
+#grupo-morango{
+    box-sizing: border-box;
+    position: absolute;
+    width: 530px;
+    height: 156px;
+    left: 40px;
+    top: 1400px;
+    background: rgb(255, 255, 255);
+    border: 2px solid #F33838;
+    border-radius: 78px 15px 15px 78px; 
+}
+
+#data-morango{
+    position: absolute;
+    width: 123px;
+    height: 36px;
+    left: 170px;
+    top: 4px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 19px;
+    line-height: 36px;
+    display: flex;
+    align-items: center;
+    color: #000000;
+
+}
+
+#local-morango{
+    width: 59px;
+    height: 36px;
+    left: 360px;
+    top: 7px;
+    position: absolute;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20PX;
+    line-height: 36px;
+    display: flex;
+    align-items: center;
+    color: #000000;
+}
+
+#horario-morango{
+    position: absolute;
+    width: 142px;
+    height: 36px;
+    left: 170px;
+    top: 71px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20PX;
+    line-height: 36px;
+    display: flex;
+    align-items: center;
+    color: #000000;
+}
+
+#framboesa{
+    position: absolute;
+    width: 84px;
+    height: 36px;
+    left: 144px;
+    top: 1530px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 36px;
+    display: flex;
+    align-items: center;
+    color: #AE2F64;
+}
+
+#grupo-framboesa{
+    box-sizing: border-box;
+    position: absolute;
+    width: 530px;
+    height: 156px;
+    left: 40px;
+    top: 1605px;
+    background: rgb(255, 255, 255);
+    border: 2px solid #FF559C;
+    border-radius: 78px 15px 15px 78px; 
+}
+
+#data-framboesa{
+    position: absolute;
+    width: 123px;
+    height: 36px;
+    left: 170px;
+    top: 4px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 19px;
+    line-height: 36px;
+    display: flex;
+    align-items: center;
+    color: #000000;
+}
+
+#local-framboesa{
+    width: 59px;
+    height: 36px;
+    left: 360px;
+    top: 7px;
+    position: absolute;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20PX;
+    line-height: 36px;
+    display: flex;
+    align-items: center;
+    color: #000000;
+}
+
+#horario-framboesa{
+    position: absolute;
+    width: 142px;
+    height: 36px;
+    left: 170px;
+    top: 71px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20PX;
+    line-height: 36px;
+    display: flex;
+    align-items: center;
+    color: #000000;
+}
+
+#melancia{
+    position: absolute;
+    width: 84px;
+    height: 36px;
+    left: 144px;
+    top: 1735px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 36px;
+    display: flex;
+    align-items: center;
+    color: #5C7438;
+}
+
+#grupo-melancia{
+    box-sizing: border-box;
+    position: absolute;
+    width: 530px;
+    height: 156px;
+    left: 40px;
+    top: 1810px;
+    background: rgb(255, 255, 255);
+    border: 2px solid #53BA6A;
+    border-radius: 78px 15px 15px 78px; 
+}
+
+#data-melancia{
+    position: absolute;
+    width: 123px;
+    height: 36px;
+    left: 170px;
+    top: 4px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 19px;
+    line-height: 36px;
+    display: flex;
+    align-items: center;
+    color: #000000;
+
+}
+
+#local-melancia{
+    width: 59px;
+    height: 36px;
+    left: 360px;
+    top: 7px;
+    position: absolute;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20PX;
+    line-height: 36px;
+    display: flex;
+    align-items: center;
+    color: #000000;
+}
+
+#horario-melancia{
+    position: absolute;
+    width: 142px;
+    height: 36px;
+    left: 170px;
+    top: 71px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20PX;
+    line-height: 36px;
+    display: flex;
+    align-items: center;
+    color: #000000;
+}
+
+#uva{
+    position: absolute;
+    width: 84px;
+    height: 36px;
+    left: 144px;
+    top: 1940px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 36px;
+    display: flex;
+    align-items: center;
+    color: #6126BE;
+}
+
+#grupo-uva{
+    box-sizing: border-box;
+    position: absolute;
+    width: 530px;
+    height: 156px;
+    left: 40px;
+    top: 2020px;
+    background: rgb(255, 255, 255);
+    border: 2px solid #7A2DF6;
+    border-radius: 78px 15px 15px 78px; 
+}
+
+#data-uva{
+    position: absolute;
+    width: 123px;
+    height: 36px;
+    left: 170px;
+    top: 4px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 19px;
+    line-height: 36px;
+    display: flex;
+    align-items: center;
+    color: #000000;
+
+}
+
+#local-uva{
+    width: 59px;
+    height: 36px;
+    left: 360px;
+    top: 7px;
+    position: absolute;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20PX;
+    line-height: 36px;
+    display: flex;
+    align-items: center;
+    color: #000000;
+}
+
+#horario-uva{
+    position: absolute;
+    width: 142px;
+    height: 36px;
+    left: 170px;
+    top: 71px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20PX;
+    line-height: 36px;
+    display: flex;
+    align-items: center;
+    color: #000000;
+}
+
+#limao{
+    position: absolute;
+    width: 84px;
+    height: 36px;
+    left: 144px;
+    top: 2150px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 36px;
+    display: flex;
+    align-items: center;
+    color: #84A929;
+}
+
+#grupo-limao{
+    box-sizing: border-box;
+    position: absolute;
+    width: 530px;
+    height: 156px;
+    left: 40px;
+    top: 2225px;
+    background: rgb(255, 255, 255);
+    border: 2px solid #8EC30B;
+    border-radius: 78px 15px 15px 78px; 
+}
+
+#data-limao{
+    position: absolute;
+    width: 123px;
+    height: 36px;
+    left: 170px;
+    top: 4px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 19px;
+    line-height: 36px;
+    display: flex;
+    align-items: center;
+    color: #000000;
+
+}
+
+#local-limao{
+    width: 59px;
+    height: 36px;
+    left: 360px;
+    top: 7px;
+    position: absolute;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20PX;
+    line-height: 36px;
+    display: flex;
+    align-items: center;
+    color: #000000;
+}
+
+#horario-limao{
+    position: absolute;
+    width: 142px;
+    height: 36px;
+    left: 170px;
+    top: 71px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20PX;
+    line-height: 36px;
+    display: flex;
+    align-items: center;
+    color: #000000;
+}
+
+#abobora{
+    position: absolute;
+    width: 84px;
+    height: 36px;
+    left: 760px;
+    top: 690px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 36px;
+    display: flex;
+    align-items: center;
+    color: #C07F0D;
+}
+
+#grupo-abobora{
+    box-sizing: border-box;
+    position: absolute;
+    width: 530px;
+    height: 156px;
+    left: 650px;
+    top: 767px;
+    background: rgb(255, 255, 255);
+    border: 2px solid #FDA209;
+    border-radius: 78px 15px 15px 78px; 
+}
+
+#data-abobora{
+    position: absolute;
+    width: 123px;
+    height: 36px;
+    left: 170px;
+    top: 4px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 19px;
+    line-height: 36px;
+    display: flex;
+    align-items: center;
+    color: #000000;
+}
+
+#local-abobora{
+    width: 59px;
+    height: 36px;
+    left: 360px;
+    top: 7px;
+    position: absolute;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20PX;
+    line-height: 36px;
+    display: flex;
+    align-items: center;
+    color: #000000;
+}
+
+#horario-abobora{
+    position: absolute;
+    width: 142px;
+    height: 36px;
+    left: 170px;
+    top: 71px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20PX;
+    line-height: 36px;
+    display: flex;
+    align-items: center;
+    color: #000000;
+}
+
+#cenoura{
+    position: absolute;
+    width: 84px;
+    height: 36px;
+    left: 760px;
+    top: 900px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 36px;
+    display: flex;
+    align-items: center;
+    color: #D9640D;
+}
+
+#grupo-cenoura{
+    box-sizing: border-box;
+    position: absolute;
+    width: 530px;
+    height: 156px;
+    left: 650px;
+    top: 980px;
+    background: rgb(255, 255, 255);
+    border: 2px solid #F56D01;
+    border-radius: 78px 15px 15px 78px; 
+}
+
+#data-cenoura{
+    position: absolute;
+    width: 123px;
+    height: 36px;
+    left: 170px;
+    top: 4px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 19px;
+    line-height: 36px;
+    display: flex;
+    align-items: center;
+    color: #000000;
+}
+
+#local-cenoura{
+    width: 59px;
+    height: 36px;
+    left: 360px;
+    top: 7px;
+    position: absolute;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20PX;
+    line-height: 36px;
+    display: flex;
+    align-items: center;
+    color: #000000;
+}
+
+#horario-cenoura{
+    position: absolute;
+    width: 142px;
+    height: 36px;
+    left: 170px;
+    top: 71px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20PX;
+    line-height: 36px;
+    display: flex;
+    align-items: center;
+    color: #000000;
+}
+
+#batata{
+    position: absolute;
+    width: 84px;
+    height: 36px;
+    left: 760px;
+    top: 1115px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 36px;
+    display: flex;
+    align-items: center;
+    color: #A68F0B;
+}
+
+#grupo-batata{
+    box-sizing: border-box;
+    position: absolute;
+    width: 530px;
+    height: 156px;
+    left: 650px;
+    top: 1192px;
+    background: rgb(255, 255, 255);
+    border: 2px solid #D6AB03;
+    border-radius: 78px 15px 15px 78px; 
+}
+
+#data-batata{
+    position: absolute;
+    width: 123px;
+    height: 36px;
+    left: 170px;
+    top: 4px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 19px;
+    line-height: 36px;
+    display: flex;
+    align-items: center;
+    color: #000000;
+}
+
+#local-batata{
+    width: 59px;
+    height: 36px;
+    left: 360px;
+    top: 7px;
+    position: absolute;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20PX;
+    line-height: 36px;
+    display: flex;
+    align-items: center;
+    color: #000000;
+}
+
+#horario-batata{
+    position: absolute;
+    width: 142px;
+    height: 36px;
+    left: 170px;
+    top: 71px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20PX;
+    line-height: 36px;
+    display: flex;
+    align-items: center;
+    color: #000000;
+}
+
+#rabanete{
+    position: absolute;
+    width: 84px;
+    height: 36px;
+    left: 760px;
+    top: 1325px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 36px;
+    display: flex;
+    align-items: center;
+    color: #841D1D;
+}
+
+#grupo-rabanete{
+    box-sizing: border-box;
+    position: absolute;
+    width: 530px;
+    height: 156px;
+    left: 650px;
+    top: 1400px;
+    background: rgb(255, 255, 255);
+    border: 2px solid #F33838;
+    border-radius: 78px 15px 15px 78px; 
+}
+
+#data-rabanete{
+    position: absolute;
+    width: 123px;
+    height: 36px;
+    left: 170px;
+    top: 4px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 19px;
+    line-height: 36px;
+    display: flex;
+    align-items: center;
+    color: #000000;
+}
+
+#local-rabanete{
+    width: 59px;
+    height: 36px;
+    left: 360px;
+    top: 7px;
+    position: absolute;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20PX;
+    line-height: 36px;
+    display: flex;
+    align-items: center;
+    color: #000000;
+}
+
+#horario-rabanete{
+    position: absolute;
+    width: 142px;
+    height: 36px;
+    left: 170px;
+    top: 71px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20PX;
+    line-height: 36px;
+    display: flex;
+    align-items: center;
+    color: #000000;
+}
+
+#beterraba{
+    position: absolute;
+    width: 84px;
+    height: 36px;
+    left: 760px;
+    top: 1530px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 36px;
+    display: flex;
+    align-items: center;
+    color: #AE2F64;
+}
+
+#grupo-beterraba{
+    box-sizing: border-box;
+    position: absolute;
+    width: 530px;
+    height: 156px;
+    left: 650px;
+    top: 1605px;
+    background: rgb(255, 255, 255);
+    border: 2px solid #FF559C;
+    border-radius: 78px 15px 15px 78px; 
+}
+
+#data-beterraba{
+    position: absolute;
+    width: 123px;
+    height: 36px;
+    left: 170px;
+    top: 4px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 19px;
+    line-height: 36px;
+    display: flex;
+    align-items: center;
+    color: #000000;
+}
+
+#local-beterraba{
+    width: 59px;
+    height: 36px;
+    left: 360px;
+    top: 7px;
+    position: absolute;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20PX;
+    line-height: 36px;
+    display: flex;
+    align-items: center;
+    color: #000000;
+}
+
+#horario-beterraba{
+    position: absolute;
+    width: 142px;
+    height: 36px;
+    left: 170px;
+    top: 71px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20PX;
+    line-height: 36px;
+    display: flex;
+    align-items: center;
+    color: #000000;
+}
+
+#chuchu{
+    position: absolute;
+    width: 84px;
+    height: 36px;
+    left: 760px;
+    top: 1735px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 36px;
+    display: flex;
+    align-items: center;
+    color: #5C7438;
+}
+
+#grupo-chuchu{
+    box-sizing: border-box;
+    position: absolute;
+    width: 530px;
+    height: 156px;
+    left: 650px;
+    top: 1810px;
+    background: rgb(255, 255, 255);
+    border: 2px solid #53BA6A;
+    border-radius: 78px 15px 15px 78px; 
+}
+
+#data-chuchu{
+    position: absolute;
+    width: 123px;
+    height: 36px;
+    left: 170px;
+    top: 4px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 19px;
+    line-height: 36px;
+    display: flex;
+    align-items: center;
+    color: #000000;
+}
+
+#local-chuchu{
+    width: 59px;
+    height: 36px;
+    left: 360px;
+    top: 7px;
+    position: absolute;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20PX;
+    line-height: 36px;
+    display: flex;
+    align-items: center;
+    color: #000000;
+}
+
+#horario-chuchu{
+    position: absolute;
+    width: 142px;
+    height: 36px;
+    left: 170px;
+    top: 71px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20PX;
+    line-height: 36px;
+    display: flex;
+    align-items: center;
+    color: #000000;
+}
+
+#berinjela{
+    position: absolute;
+    width: 84px;
+    height: 36px;
+    left: 760px;
+    top: 1940px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 36px;
+    display: flex;
+    align-items: center;
+    color: #6126BE;
+}
+
+#grupo-berinjela{
+    box-sizing: border-box;
+    position: absolute;
+    width: 530px;
+    height: 156px;
+    left: 650px;
+    top: 2020px;
+    background: rgb(255, 255, 255);
+    border: 2px solid #7A2DF6;
+    border-radius: 78px 15px 15px 78px; 
+}
+
+#data-berinjela{
+    position: absolute;
+    width: 123px;
+    height: 36px;
+    left: 170px;
+    top: 4px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 19px;
+    line-height: 36px;
+    display: flex;
+    align-items: center;
+    color: #000000;
+}
+
+#local-berinjela{
+    width: 59px;
+    height: 36px;
+    left: 360px;
+    top: 7px;
+    position: absolute;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20PX;
+    line-height: 36px;
+    display: flex;
+    align-items: center;
+    color: #000000;
+}
+
+#horario-berinjela{
+    position: absolute;
+    width: 142px;
+    height: 36px;
+    left: 170px;
+    top: 71px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20PX;
+    line-height: 36px;
+    display: flex;
+    align-items: center;
+    color: #000000;
+}
+
+#repolho{
+    position: absolute;
+    width: 84px;
+    height: 36px;
+    left: 760px;
+    top: 2150px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 36px;
+    display: flex;
+    align-items: center;
+    color: #84A929;
+}
+
+#grupo-repolho{
+    box-sizing: border-box;
+    position: absolute;
+    width: 530px;
+    height: 156px;
+    left: 650px;
+    top: 2225px;
+    background: rgb(255, 255, 255);
+    border: 2px solid #8EC30B;
+    border-radius: 78px 15px 15px 78px; 
+}
+
+#data-repolho{
+    position: absolute;
+    width: 123px;
+    height: 36px;
+    left: 170px;
+    top: 4px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 19px;
+    line-height: 36px;
+    display: flex;
+    align-items: center;
+    color: #000000;
+}
+
+#local-repolho{
+    width: 59px;
+    height: 36px;
+    left: 360px;
+    top: 7px;
+    position: absolute;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20PX;
+    line-height: 36px;
+    display: flex;
+    align-items: center;
+    color: #000000;
+}
+
+#horario-repolho{
+    position: absolute;
+    width: 142px;
+    height: 36px;
+    left: 170px;
+    top: 71px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20PX;
+    line-height: 36px;
+    display: flex;
+    align-items: center;
+    color: #000000;
+}
+
+a{
+    text-decoration: none;
+    position: absolute;
+    left: 14.2%;
+    right: 14.23%;
+    top: 18.24%;
+    bottom: 19.37%;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24px;
+    color: #FFFFFF;
+}
+
+#mapa{
+    position: relative;
+    top: 3350px;
+    left: 30px;
+}
+
+#container-contato{
+    position: relative;
+    top: 350px;
+}
+
+#endereco{
+    position: absolute;
+    top: 3005px;
+    font-family: 'Montserrat';
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 36px;
+    color: #064275;
+    left: 300px;
+}
+
+#email{
+    position: absolute;
+    top: 3045px;
+    font-family: 'Montserrat';
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 36px;
+    color: #064275;
+    left: 500px;
+}
+
+#telefone{
+    position: absolute;
+    top: 3090px;
+    font-family: 'Montserrat';
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 36px;
+    color: #064275;
+    left: 600px;
+}
+
+#botao-voltar{
+    position: absolute;
+    left: 950px;
+    top: 3897px;
+    width: 180px;
+    height: 50px;
+    background: #4393EE;
+    border-color: #4393EE;
+    border-radius: 15px 15px 0px 0px;
+}
+
+#botao-voltar:hover{
+    background: #2E86EA;
+    border-color: #2E86EA;
+}
+
+#link-voltar{
+    position: absolute;
+    left: 20px;
+    top: 5px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 24px;
+    color: #FFFFFF;
+}

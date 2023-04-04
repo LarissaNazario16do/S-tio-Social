@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/cadastro-distribuidor.css">
+    <title>AgroHouse</title>
+</head>
+<body>
+    <header>
+        <a href="./index.html" id="volta-pag"><img src="./img/cadastros/seta-esquerda-azulclaro.png" alt=""></a>
+    </header>
+
+    <main>
+
+    <div class="container-azul-claro">
+            <img src="./img/cadastros/distribuidor.png" id="img-distribuidor">   
+        <!--formulario-->
+        <h3 id="titulo-azul-claro">Distribuidor</h3>
+            <div class="row">
+                <form action="" method="post">
+                    <div class="inputbox">
+                        <input type="text" maxlength="30" id="input-azul-claro-nome" required placeholder="Nome completo">
+                        <label for="nome" id="label-azul-claro-nome">Nome</label>
+                    </div>
+                    <div class="inputbox">
+                        <input type="email" maxlength="60" id="input-azul-claro-email" required placeholder="Email" onblur="validarEmail()" onfocus="redefinirMsg()">
+                        <label for="email" id="label-azul-claro-email">Email</label>
+                    </div>
+                    <div class="inputbox">
+                        <input type="tel" maxlength="13" id="input-azul-claro-telefone"  required placeholder="(XX)XXXXX-XXXX">
+                        <label for="tel" id="label-azul-claro-telefone">Telefone</label>
+                    </div>
+                    <div class="inputbox">
+                        <input type="text" maxlength="20" id="input-azul-claro-cnpj" required placeholder="XXXX.XXX.XXX/0001-XX">
+                        <label for="cnpj" id="label-azul-claro-cnpj">CNPJ</label>
+                    </div>
+                    <div class="inputbox">
+                        <label for="disponibilidade" id="label-azul-claro-disponibilidade">Disponibilidade</label>
+                            <select id="disponibilidade-azul-claro" name="disponibilidade">
+                            <option value="frutas">Manhã</option>
+                            <option value="legumes">Tarde</option>
+                            <option value="Ambos">Noite</option>
+                            </select>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="inputbox">
+                        <input type="text" maxlength="9" id="input-azul-claro-cep" required placeholder="CEP">
+                        <label for="cep" id="label-azul-claro-cep">CEP</label>
+                    </div>
+                </div>
+            </form>
+            <button id="submit"><a href="./index.html">Cadastrar</a></button>
+    </div>
+    </main>
+
+    <footer>
+    <!--rodape-->
+
+    </footer>
+
+    <!--script-->
+    
+
+</body>
+</html>

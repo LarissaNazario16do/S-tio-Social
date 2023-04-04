@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/cadastro-coletor.css">
+    <title>AgroHouse</title>
+</head>
+<body>
+    <header>
+        <a href="./index.html" id="volta-pag"><img src="./img/cadastros/seta-esquerda-marrom.png" alt=""></a>
+    </header>
+
+    <main>
+
+        
+
+    <!--formulario-->
+    <div class="container-marrom">
+        <img src="./img/cadastros/coletor.png" alt="" id="img-coletor">
+        <h3 id="titulo-marrom">Coletor</h3>
+            <div class="row">
+                <form action="" method="post" class="form">
+                    <div class="inputbox success">
+                        <input type="text" maxlength="30" id="input-marrom-nome" required placeholder="Nome completo">
+                        <label for="nome" id="label-marrom-nome">Nome</label>
+                    </div>
+                    <div class="inputbox error">
+                        <input type="email" maxlength="60" id="input-marrom-email"  required placeholder="Email">
+                        <label for="email" id="label-marrom-email">Email</label>
+                    </div>
+                    <div class="inputbox">
+                        <input type="tel" maxlength="13" id="input-marrom-telefone"  required placeholder="(XX)XXXXX-XXXX">
+                        <label for="tel" id="label-marrom-telefone">Telefone</label>
+                    </div>
+                    <div class="inputbox">
+                        <input type="text" maxlength="15" id="input-marrom-cpf" required placeholder="XXX.XXX.XXX-XX">
+                        <label for="cpf" id="label-marrom-cpf">CPF</label>
+                    </div>
+                    <div class="inputbox">
+                        <input type="text" maxlength="20" id="input-marrom-cnpj" required placeholder="XXXX.XXX.XXX/0001-XX">
+                        <label for="cnpj" id="label-marrom-cnpj">CNPJ</label>
+                    </div>
+                    <div class="inputbox">
+                        <label for="disponibilidade" id="label-marrom-disponibilidade">Disponibilidade</label>
+                            <select id="disponibilidade-marrom" name="disponibilidade">
+                            <option value="frutas">Manhã</option>
+                            <option value="legumes">Tarde</option>
+                            <option value="Ambos">Noite</option>
+                            </select>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="inputbox">
+                        <input type="text" maxlength="9" id="input-marrom-cep" required placeholder="CEP">
+                        <label for="cep" id="label-marrom-cep">CEP</label>
+                    </div>
+                </div>
+            </form>
+            <button id="submit"><a href="./index.html">Cadastrar</a></button>
+    </div>    
+    </main>
+
+    <footer>
+    <!--rodape-->
+
+    </footer>
+
+    <!--script-->
+    <script src="./js/email.js"></script>
+
+</body>
+</html>

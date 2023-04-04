@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/login.css">
+    <link rel="stylesheet" href="./css/modal.css">
+    <title>AgroHouse</title>
+</head>
+<body>
+    <header>
+       <a href="./index.html"><img src="./img/cadastros/seta-esquerda-AMARELO.png" alt="" id="volta-pag"></a>
+    </header>
+
+    <main>
+    <!--formulario-->
+        <div id="container-laranja">
+            <img src="./img/cadastros/login.png" alt="" id="img-login">
+        <h3 id="titulo-laranja">Login</h3>
+            <form action="" method="post">
+                <input type="email" maxlength="60" id="input-azul-email" placeholder="Email" required>
+                <label for="email" id="label-azul-email">Email</label>
+                    
+
+                <div class="inputbox">
+                    <label for="senha" id="label-azul-senha">Senha</label>
+                    <input type="password" maxlength="10" id="password" placeholder="Sua senha" required>
+                    <input type="checkbox" id="visualizar" onclick="myFunction()"><h5>Ver senha</h5>
+                </div>
+                <a href="#" id ="esqueci-senha">Esqueci a senha </a>
+            
+                <section class="cadastro-botao">
+                    <button type="submit" id="cadastrar" onclick="showModal()">Cadastre-se</button>
+                </section>
+
+                <button id="submit"><a href="./alimentos.html">Entrar</a></button>
+            </form>
+        </div>
+
+        
+       
+        <!--modal de cadastro-->
+        <div class="modal" id="modal">
+            <div class="modal-content">
+                <span onclick="hideModal()">&times;</span>
+                <form>
+                    <div class="box-grup-cadastro">  
+                        <div class="box-cadastro">
+                            <div class="row">
+                                    <div class="inputbox">
+                                        <label class="nome" for="nome" id="label-modal-nome">Nome</label>
+                                        <input type="text" maxlength="30" id="input-modal-nome" placeholder="Nome" required>
+                                    </div>   
+                                <div class="inputbox">
+                                        <label for="email" id="label-modal-email">Email</label>
+                                        <input type="email" maxlength="60" id="input-modal-email" placeholder="...@gmail.com" required>
+                                </div>
+                                <div class="inputbox">
+                                        <label for="cep" id="label-modal-cep">CEP</label>
+                                        <input type="number" maxlength="9" id="input-modal-cep" placeholder="CEP" required>
+                                </div>
+                                <div class="inputbox">
+                                        <label for="senha" id="label-modal-senha">Senha</label>
+                                        <input type="password" maxlength="10" name="password" id="myPasssword" placeholder="Crie senha" required>
+                                </div>
+                            </div>
+                        </div>                 
+                    </div>
+                    <input type="submit" value="Confirmar" id="botao-cadastro" onclick="hideModal()">
+                    <small id="textForm"></small>
+                </form>   
+            </div>
+        </div>
+       
+
+    </main>
+
+    <footer>
+    <!--rodape-->
+
+    </footer>
+
+    <!--script-->
+    <script src="./js/modal-cadastro.js"></script>
+    <script src="./js/email.js"></script>
+    <script src="./js/senha.js"></script>
+
+</body>
+</html>

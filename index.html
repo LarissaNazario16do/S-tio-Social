@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/whats.css">
+    <link rel="stylesheet" href="./css/home.css">
+    <link rel="stylesheet" href="./css/usuario.css">
+    <title>AgroHouse</title>
+</head>
+
+<body>
+
+
+  <!--Banner, logo e icones-->
+    <header>
+      <div id="cabecalho">
+        <img src="./img/pag-home/banner (2).png" alt="" id="banner">
+        <img src="./img/pag-home/LOGO.png" alt="" id="logo">
+        <a href="#"><img src="" alt="" id="usuario"></a>
+      </div>
+
+      <section id="menu-nav">
+        <button id="btn" aria-label="Abrir menu de Usuário" aria-haspopup="true" aria-expanded="false" aria-controls="menu">
+            <a href="#"><img src="./img/pag-home/adicionar-usuario.png" alt="" class="icon-header-menu"></a>
+        </button>
+        <ul id="usuario" role="menu">
+            <li>Login para cliente<a href="./login.html"></a></li>
+            <li>Administrador<a href="./login-administrador.html"></a></li>
+            <li>Colheita<a href="./alimentos.html"></a></li>
+            <li>Voluntário<a href="/cadastro-voluntario.html"></a></li>
+        </ul>
+    </section>
+    </header>
+
+    <main>
+        <div class="icon">
+            <a href="https://wa.me/5551984129881"><img src="./img/pag-home/whatsapp.png" alt="WhatsApp" id="icone_whats"></a>
+        </div>
+
+
+
+        <!--Historia-->
+        <section id="nossa-historia">
+          <img src="./img/pag-home/img-historia.jpeg" alt="" id="img-historia">
+          <h2 id="historia">Nossa História</h2>
+          <p id="paragrafo">Somos uma instituição que administra múltiplos centros sociais. Temos contato diário com população carente de diferentes comunidades. Entre muitas de nossas iniciativas, proporcionamos uma alimentação de qualidade aos necessitados. Temos pontos de contato consolidados, uma vazão grande para doação de alimentos. Nossa ideia é servir como um elo de ligação entre pessoas que dispõe de mais frutas e vegetais do que são capazes de consumir em seu contexto doméstico. </p>
+        </section>
+
+
+
+        <!--Carousel-->
+        <h2 id="titutlo-carousel">Nossos trabalhos e Projetos!</h2>
+        <div class="slideshow-container">
+        <div class="mySlides fade">
+          <img src="./img/pag-home/carousel1.png" id="img-carousel">
+          <div class="text-marrom">Ajude Nos a ajudar</div>
+          <div id="conteudo-marrom">Logo após os alimentos serem selecionados e entregues acabam sobrando muitos alimentos em nossas reversa, assim coletamos estes produtos e novamente passamos por uma seleção doamos para pessoas carentes e comunidades necessitadas.
+          </div>
+        </div>
+
+        <div class="mySlides fade">
+          <img src="./img/pag-home/carousel2.png" id="img-carousel">
+          <div class="titulo-azul">Voluntário</div>
+          <div class="text-azul">Tempos de crise</div>
+          <div id="conteudo-azul">Em tempos de pandemia muitas famílias estavam passando por desemprego e dificuldades financeiras, em vista disso começamos um projeto chamado “Mão amiga”, e o plano era destruir alimentos gratuitamente, ajudamos mais de 500 famílias nesse projeto e 300 moradores de rua.
+          </div>
+          <button id="botao-azul"><a href="./cadastro-voluntario.html">Cadastra-se</a></button>
+        </div>
+
+        <div class="mySlides fade">
+          <img src="./img/pag-home/carousel3.png" id="img-carousel">
+          <div class="titulo-azul-claro">Distribuidor</div>
+          <div class="text-azul-claro">Fornecimento alimentar</div>
+          <div id="conteudo-azul-claro">Com mais de 45 variedades de alimentos naturais são distribuídos diariamente para projetos sociais, assim ajudando mais de 63 instituições, 40 orfanatos e 34 projetos sociais, com mais de 200 pessoas que vivem e moram nestes locais.
+          </div>
+          <button id="botao-azul-claro"><a href="./cadastro-distribuicao.html">Cadastra-se</a></button>
+        </div>
+
+        <div class="mySlides fade">
+          <img src="./img/pag-home/carousel4.png" id="img-carousel">
+          <div class="titulo-verde">Produtor</div>
+          <div class="text-verde">Nossas expedição</div>
+          <div id="conteudo-verde">Para garantir um melhor produto e 100% natural não utilizamos agrotóxicos em nossas plantações, por conta disso contratamos mais de 30 produtores que fazem a especialização de nossos alimentos garantindo uma melhor qualidade de produtos.
+          </div>
+          <button id="botao-verde"><a href="./cadastro-produtores.html">Cadastra-se</a></button>
+        </div>
+
+        <div class="mySlides fade">
+          <img src="./img/pag-home/carousel5.png" id="img-carousel">
+          <div class="titulo-beze">Coletor</div>
+          <div class="text-beze">Colheitas</div>
+          <div id="conteudo-beze">Nossas colheitas são realizadas pelos nossos coletores somente alimentos da estação do ana assim garantido um produto fresco e muito saborosos, Produtores realizam a separação de nossos alimento colhidos, assim garantindo tempo de qualidade do alimento. </div>
+          <button id="botao-beze"><a href="./cadastro-coletor.html">Cadastra-se</a></button>
+        </div>
+            <a class="prev" onclick="plusSlides(-1)">❮</a>
+            <a class="next" onclick="plusSlides(1)">❯</a>
+      </div>
+
+
+          
+        <!--Card-->
+            <h2 id="card-titulo">Seja um colaborador de nossos trabalho e Faça a diferença!</h2>
+
+            <div class="card">
+              <img src="./img/pag-home/card-produtor.png" alt="" id="img-produtor">
+              <h1 id="titulo-produtor">Produtor</h1>
+              <p id="texto-produtor">Os nossos produtores realizam as INSPEÇÃO de nossos produtos para uma melhor colheita.</p>
+              <button id="botao-proudtor"><a href="./cadastro-produtores.html" id="link-produtor">Cadastra-se</a></button>
+            </div>
+
+            <div class="card-distribuidor">
+              <img src="./img/pag-home/card-distribuidor.png" alt="" id="img-distribuidor">
+              <h1 id="titulo-distribuidor">Distribuidor</h1>
+              <p id="texto-distribuidor">Realizam o requesito de produtos, selecionam o alimento para entregas com uma melhor qualidade.</p>
+            <button id="botao-distribuidor"><a href="cadastro-distribuicao.html"  id="link-distribuidor">Cadastra-se</a></button>
+            </div>
+
+            <div class="card-coletor">
+              <img src="./img/pag-home/card-coletor.png" alt="" id="img-coletor">
+              <h1 id="titulo-coletor">Coletor</h1>
+              <p id="texto-coletor">Os coletores garantem a entrega de produtos com caminhões e entre outro automóveis.</p>
+              <button id="botao-coletor"><a href="cadastro-coletor.html" id="link-coletor">Cadastra-se</a></button>
+            </div>
+
+            <div class="card-voluntario">
+              <img src="./img/pag-home/card-voluntario.png" alt="" id="img-voluntario">
+              <h1 id="titulo-voluntario">Voluntário</h1>
+              <p id="texto-voluntario">Se você sonha em ajudar, venha para AgroHouse, assim estará ajudando nossas comunidades mais proximas e se tornará um contribuidor no Projeto.</p>
+              <button id="botao-voluntario"><a href="cadastro-voluntario.html" id="link-voluntario">Cadastra-se</a></button>
+            </div>
+
+            <div class="card-login">
+              <img src="./img/pag-home/card-login.png" alt="" id="img-login">
+              <h1 id="titulo-login">Doações</h1>
+              <p id="texto-login">Se você está passando por dificuldades alimentares, basta só se se cadastrar para receber nossa ajuda.</p>
+              <p><button id="botao-login"><a href="login.html" id="link-login">Cadastra-se</a></button></p>
+            </div>
+
+
+        <!--Mapa-->
+        <section>
+          <img src="./img/pag-home/mapa.svg" alt="" id="mapa">
+        </section>
+    </main>
+
+
+
+      <!--Contato-->
+    <footer>
+        <section id="container-contato">
+            <h5 id="endereco">Estr. Antônio Severino, 1493 - Rubem Berta, Porto Alegre - RS, 91250-330</h5>
+            <h5 id="email">comunicacao.cesmar@maristas.org.br</h5>
+            <h5 id="telefone">(51) 3086-2300</h5>
+        </section>
+
+        <section>
+          <button id="botao-voltar"><a href="#banner" id="link-voltar">Voltar ao topo</a></button>
+        </section>
+    </footer>
+
+
+
+    <!--Script-->
+    <script src="./js/link-interativo.js"></script>
+    <script src="./js/carousel.js"></script>
+    <script src="./js/user-menu.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/cadastro-voluntario.css">
+    <title>AgroHouse</title>
+</head>
+<body>
+    <header>
+        <a href="index.html" id="volta-pag"><img src="./img/cadastros/seta-esquerda.png" alt="Voltar para a página inicial"></a>
+    </header>
+
+    <main>
+    <!--formulario-->
+    <div class="container-azul">
+        <img src="./img/cadastros/voluntario.png" id="img-voluntario">   
+    <h3 id="titulo-azul">Voluntário</h3>
+        <div class="row">
+            <form action="" method="post">
+                <div class="inputbox">
+                    <input type="text" maxlength="30" id="input-azul-nome" class="nome" placeholder="Nome completo" required>
+                    <label for="nome" id="label-azul-nome">Nome</label>
+                </div>
+         
+                <div class="inputbox">
+                    <input type="email" maxlength="60" id="email" class="email" placeholder="Email" required>
+                    <label for="email" id="label-azul-email">Email</label>
+                </div>
+                <div class="inputbox">
+                    <input type="tel" id="telefone" class="telefone" maxlength="13" placeholder="(XX)XXXXX-XXXX" required>
+                    <label for="tel" id="label-azul-telefone">Telefone</label>
+                </div>
+                <div class="inputbox">
+                    <label for="disponibilidade" id="label-azul-disponibilidade">Disponibilidade</label>
+                        <select name="disponibilidade-azul" id="disponibilidade-azul" class="disponibilidade">
+                        <option value="frutas">manha</option>
+                        <option value="legumes">tarde</option>
+                        <option value="Ambos">noite</option>
+                        </select>
+                </div>
+            </div>
+            <div class="row">
+                <div class="inputbox">
+                    <input type="text" maxlength="9" id="input-azul-cep" class="cep" placeholder="CEP" required>
+                    <label for="cep" id="label-azul-cep">CEP</label>
+                </div>
+            </div>
+        </form>
+        <button id="submit"><a href="./index.html">Cadastrar</a></button>
+       </div>
+    </main>
+
+    <footer>
+    <!--rodape-->
+
+    </footer>
+
+    <!--script-->
+
+</body>
+</html>
